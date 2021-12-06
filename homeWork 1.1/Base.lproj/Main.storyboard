@@ -17,25 +17,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUQ-L5-DeP">
-                                <rect key="frame" x="20" y="64" width="374" height="353"/>
+                                <rect key="frame" x="20" y="64" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdH-BB-Bpx">
-                                <rect key="frame" x="20" y="489" width="374" height="353"/>
+                                <rect key="frame" x="20" y="463" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="leading" secondItem="QUQ-L5-DeP" secondAttribute="leading" id="7bL-g8-3Et"/>
-                            <constraint firstAttribute="bottom" secondItem="hdH-BB-Bpx" secondAttribute="bottom" constant="54" id="BYV-pK-HyB"/>
-                            <constraint firstItem="QUQ-L5-DeP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="GAR-Iw-Nny"/>
-                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="489" id="aLy-IG-wXx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QUQ-L5-DeP" secondAttribute="trailing" constant="20" id="e8Q-oJ-Bn5"/>
-                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="trailing" secondItem="QUQ-L5-DeP" secondAttribute="trailing" id="k4X-nz-Rgd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QUQ-L5-DeP" secondAttribute="bottom" constant="445" id="m65-86-BiW"/>
-                            <constraint firstItem="QUQ-L5-DeP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wHI-GA-2Xk"/>
+                            <constraint firstItem="QUQ-L5-DeP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5dO-FG-aie"/>
+                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="height" secondItem="QUQ-L5-DeP" secondAttribute="height" id="NfT-CW-pkC"/>
+                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cUJ-g9-t5L"/>
+                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="width" secondItem="QUQ-L5-DeP" secondAttribute="width" id="deB-3t-nep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hdH-BB-Bpx" secondAttribute="bottom" constant="20" id="fZg-XO-FvJ"/>
+                            <constraint firstItem="QUQ-L5-DeP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="fbh-RQ-RVn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QUQ-L5-DeP" secondAttribute="trailing" constant="20" id="lXB-bg-GP5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hdH-BB-Bpx" secondAttribute="trailing" constant="20" id="nWc-fq-LQz"/>
+                            <constraint firstItem="hdH-BB-Bpx" firstAttribute="top" secondItem="QUQ-L5-DeP" secondAttribute="bottom" constant="20" id="woT-tF-2dN"/>
                         </constraints>
                     </view>
                 </viewController>
