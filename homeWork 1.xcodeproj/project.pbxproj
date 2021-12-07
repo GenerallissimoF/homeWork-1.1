@@ -15,18 +15,8 @@
 		1D067044275EC330002F86E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D067042275EC330002F86E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1D06706F275FBB9F002F86E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D06706B275FBB9E002F86E9 /* homeWork 1.2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D067054275FBB9D002F86E9;
-			remoteInfo = "homeWork 1.2";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1D067034275EC32F002F86E9 /* homeWork 1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homeWork 1.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D067034275EC32F002F86E9 /* homeWork 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homeWork 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D067037275EC330002F86E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D067039275EC330002F86E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D06703B275EC330002F86E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,7 +24,6 @@
 		1D067040275EC330002F86E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D067043275EC330002F86E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D067045275EC330002F86E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D06706B275FBB9E002F86E9 /* homeWork 1.2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "homeWork 1.2.xcodeproj"; path = "../homeWork 1.2/homeWork 1.2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +40,6 @@
 		1D06702B275EC32F002F86E9 = {
 			isa = PBXGroup;
 			children = (
-				1D06706B275FBB9E002F86E9 /* homeWork 1.2.xcodeproj */,
 				1D067036275EC330002F86E9 /* homeWork 1.1 */,
 				1D067035275EC32F002F86E9 /* Products */,
 			);
@@ -60,7 +48,7 @@
 		1D067035275EC32F002F86E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D067034275EC32F002F86E9 /* homeWork 1.1.app */,
+				1D067034275EC32F002F86E9 /* homeWork 1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,20 +67,12 @@
 			path = "homeWork 1.1";
 			sourceTree = "<group>";
 		};
-		1D06706C275FBB9E002F86E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1D067070275FBB9F002F86E9 /* homeWork 1.2.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D067033275EC32F002F86E9 /* homeWork 1.1 */ = {
+		1D067033275EC32F002F86E9 /* homeWork 1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D067048275EC330002F86E9 /* Build configuration list for PBXNativeTarget "homeWork 1.1" */;
+			buildConfigurationList = 1D067048275EC330002F86E9 /* Build configuration list for PBXNativeTarget "homeWork 1" */;
 			buildPhases = (
 				1D067030275EC32F002F86E9 /* Sources */,
 				1D067031275EC32F002F86E9 /* Frameworks */,
@@ -102,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "homeWork 1.1";
+			name = "homeWork 1";
 			productName = "homeWork 1.1";
-			productReference = 1D067034275EC32F002F86E9 /* homeWork 1.1.app */;
+			productReference = 1D067034275EC32F002F86E9 /* homeWork 1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D06702F275EC32F002F86E9 /* Build configuration list for PBXProject "homeWork 1.1" */;
+			buildConfigurationList = 1D06702F275EC32F002F86E9 /* Build configuration list for PBXProject "homeWork 1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,28 +113,12 @@
 			mainGroup = 1D06702B275EC32F002F86E9;
 			productRefGroup = 1D067035275EC32F002F86E9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1D06706C275FBB9E002F86E9 /* Products */;
-					ProjectRef = 1D06706B275FBB9E002F86E9 /* homeWork 1.2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				1D067033275EC32F002F86E9 /* homeWork 1.1 */,
+				1D067033275EC32F002F86E9 /* homeWork 1 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1D067070275FBB9F002F86E9 /* homeWork 1.2.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "homeWork 1.2.app";
-			remoteRef = 1D06706F275FBB9F002F86E9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D067032275EC32F002F86E9 /* Resources */ = {
@@ -379,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D06702F275EC32F002F86E9 /* Build configuration list for PBXProject "homeWork 1.1" */ = {
+		1D06702F275EC32F002F86E9 /* Build configuration list for PBXProject "homeWork 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D067046275EC330002F86E9 /* Debug */,
@@ -388,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D067048275EC330002F86E9 /* Build configuration list for PBXNativeTarget "homeWork 1.1" */ = {
+		1D067048275EC330002F86E9 /* Build configuration list for PBXNativeTarget "homeWork 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D067049275EC330002F86E9 /* Debug */,
